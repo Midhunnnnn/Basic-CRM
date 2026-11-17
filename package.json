@@ -1,0 +1,16 @@
+{
+  "name": "basic-crm",
+  "version": "1.0.0",
+  "description": "BASIC CRM – Customer Relationship Management System (Full-Stack React + Node.js + MySQL 8.0)",
+  "scripts": {
+    "start:backend": "cd backend && npm start",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "db:init": "cd backend && npm run db:init",
+    "seed:admin": "cd backend && npm run seed:admin"
+  },
+  "keywords": ["crm", "react", "express", "mysql", "vite"],
+  "author": "",
+  "license": "ISC"
+}

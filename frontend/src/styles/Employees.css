@@ -1,0 +1,50 @@
+/* ============================================================
+   EMPLOYEES MODULE STYLES - BASIC CRM (Boxy)
+   ============================================================ */
+
+.role-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  border: none;
+}
+
+.role-super-admin {
+  background-color: #f5f3ff;
+  color: #6d28d9;
+  border: none;
+}
+
+.role-admin {
+  background-color: #eff6ff;
+  color: #1d4ed8;
+  border: none;
+}
+
+.role-employee {
+  background-color: #f8fafc;
+  color: #475569;
+  border: none;
+}
+
+.status-toggle-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.status-pill {
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.status-pill:hover {
+  opacity: 0.8;
+}
